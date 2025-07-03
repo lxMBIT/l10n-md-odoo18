@@ -1,0 +1,20 @@
+<odoo>
+  <record id="view_accounting_dashboard_md" model="ir.ui.view">
+    <field name="name">accounting.dashboard.md</field>
+    <field name="model">res.company</field>
+    <field name="arch" type="xml">
+      <form string="Moldova Accounting Dashboard">
+        <group>
+          <field name="name" readonly="1"/>
+          <label string="Остатки на счетах (demo)"/>
+          <button name="action_open_bank_statements" string="Банковские выписки" type="object"/>
+          <label string="Зарплаты (demo)"/>
+          <button name="action_open_payroll" string="Зарплаты" type="object"/>
+          <label string="Налоги (demo)"/>
+          <button name="action_open_tax_reports" string="Налоговые отчёты" type="object"/>
+        </group>
+      </form>
+    </field>
+  </record>
+  <menuitem id="menu_accounting_dashboard_md" name="Бухгалтерский дашборд MD" parent="account.menu_finance" action="view_accounting_dashboard_md"/>
+</odoo>
