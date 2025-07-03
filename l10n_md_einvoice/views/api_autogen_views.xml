@@ -1,0 +1,34 @@
+<odoo>
+    <record id="view_l10n_md_einvoice_api_tree" model="ir.ui.view">
+        <field name="name">l10n_md_einvoice_api.tree</field>
+        <field name="model">l10n_md_einvoice.api</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="id"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_l10n_md_einvoice_api_form" model="ir.ui.view">
+        <field name="name">l10n_md_einvoice_api.form</field>
+        <field name="model">l10n_md_einvoice.api</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_l10n_md_einvoice_api_search" model="ir.ui.view">
+        <field name="name">l10n_md_einvoice_api.search</field>
+        <field name="model">l10n_md_einvoice.api</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="id"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>

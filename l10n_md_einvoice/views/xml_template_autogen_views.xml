@@ -1,0 +1,41 @@
+<odoo>
+    <record id="view_l10n_md_einvoice_xml_template_tree" model="ir.ui.view">
+        <field name="name">l10n_md_einvoice_xml_template.tree</field>
+        <field name="model">l10n_md_einvoice.xml_template</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="id"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_l10n_md_einvoice_xml_template_form" model="ir.ui.view">
+        <field name="name">l10n_md_einvoice_xml_template.form</field>
+        <field name="model">l10n_md_einvoice.xml_template</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_l10n_md_einvoice_xml_template_search" model="ir.ui.view">
+        <field name="name">l10n_md_einvoice_xml_template.search</field>
+        <field name="model">l10n_md_einvoice.xml_template</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="id"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_l10n_md_einvoice_xml_template" model="ir.actions.act_window">
+        <field name="name">l10n_md_einvoice_xml_template</field>
+        <field name="res_model">l10n_md_einvoice.xml_template</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_l10n_md_einvoice_xml_template" name="l10n_md_einvoice_xml_template" action="action_l10n_md_einvoice_xml_template" parent="base.menu_custom"/>
+
+</odoo>

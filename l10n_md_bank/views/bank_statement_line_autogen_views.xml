@@ -1,0 +1,41 @@
+<odoo>
+    <record id="view_l10n_md_bank_bank_statement_line_tree" model="ir.ui.view">
+        <field name="name">l10n_md_bank_bank_statement_line.tree</field>
+        <field name="model">l10n_md_bank.bank_statement.line</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="id"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_l10n_md_bank_bank_statement_line_form" model="ir.ui.view">
+        <field name="name">l10n_md_bank_bank_statement_line.form</field>
+        <field name="model">l10n_md_bank.bank_statement.line</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_l10n_md_bank_bank_statement_line_search" model="ir.ui.view">
+        <field name="name">l10n_md_bank_bank_statement_line.search</field>
+        <field name="model">l10n_md_bank.bank_statement.line</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="id"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_l10n_md_bank_bank_statement_line" model="ir.actions.act_window">
+        <field name="name">l10n_md_bank_bank_statement_line</field>
+        <field name="res_model">l10n_md_bank.bank_statement.line</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_l10n_md_bank_bank_statement_line" name="l10n_md_bank_bank_statement_line" action="action_l10n_md_bank_bank_statement_line" parent="base.menu_custom"/>
+
+</odoo>
