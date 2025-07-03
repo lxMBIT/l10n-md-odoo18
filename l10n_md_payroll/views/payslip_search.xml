@@ -1,0 +1,16 @@
+<odoo>
+  <record id="view_payslip_search_md" model="ir.ui.view">
+    <field name="name">payslip.search.md</field>
+    <field name="model">hr.payslip</field>
+    <field name="arch" type="xml">
+      <search string="Расчётные листы">
+        <field name="number"/>
+        <field name="employee_id"/>
+        <field name="date_from"/>
+        <field name="date_to"/>
+        <field name="total"/>
+        <filter string=">10 000 MDL" name="filter_gt10k" domain="[('total','>',10000)]"/>
+      </search>
+    </field>
+  </record>
+</odoo>

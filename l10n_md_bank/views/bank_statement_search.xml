@@ -1,0 +1,15 @@
+<odoo>
+  <record id="view_bank_statement_search_md" model="ir.ui.view">
+    <field name="name">bank.statement.search.md</field>
+    <field name="model">l10n_md_bank.bank_statement</field>
+    <field name="arch" type="xml">
+      <search string="Банковские выписки">
+        <field name="name"/>
+        <field name="date"/>
+        <field name="bank_account"/>
+        <field name="currency_id"/>
+        <filter string="Только MDL" name="filter_mdl" domain="[('currency_id.code','=','MDL')]"/>
+      </search>
+    </field>
+  </record>
+</odoo>
