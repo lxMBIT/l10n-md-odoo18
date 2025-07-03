@@ -1,45 +1,33 @@
-# Moldova e-invoice.md API Structure
+# Moldova e-invoice.md — Инструкция для бухгалтера и администратора
 
-## Overview
-This document describes the integration API for Moldova's e-invoice.md, following the approach of l10n_it and l10n_lt modules.
+## Установка
+1. Установите зависимости: base, account
+2. Установите модуль l10n_md_einvoice через Apps
 
-## Endpoints
-- **POST /api/einvoice/send**: Send an electronic invoice to e-invoice.md
-- **GET /api/einvoice/status/{einvoice_md_id}**: Get the status of a sent invoice
-- **GET /api/einvoice/download/{einvoice_md_id}**: Download the XML of a sent invoice
+## Настройка
+- Перейдите в меню "Электронные счета" (e-invoice)
+- Укажите параметры интеграции с e-invoice.md (API-ключ, URL)
+- Проверьте доступность сервиса через тестовую отправку
 
-## Authentication
-- OAuth2 or API Key (to be specified by e-invoice.md provider)
+## Использование
+### Создание и отправка электронного счёта
+1. Создайте новый электронный счёт (меню e-invoice)
+2. Заполните реквизиты: контрагент, сумма, дата, товары/услуги
+3. Нажмите "Отправить в e-invoice.md"
+4. Проверьте статус (через поле "Статус" или кнопку "Проверить статус")
 
-## Request/Response Examples
-### Send Invoice
-POST /api/einvoice/send
-```json
-{
-  "invoice_number": "INV-2025-001",
-  "partner_vat": "1002601000123",
-  "date_invoice": "2025-07-03",
-  "amount_total": 1234.56,
-  "currency": "MDL",
-  "xml_base64": "..."
-}
-```
+### Проверка и загрузка XML
+- Для любого счёта можно скачать XML-файл для архива
 
-### Status Response
-```json
-{
-  "einvoice_md_id": "MD-1234567890",
-  "status": "accepted",
-  "message": "Invoice accepted by e-invoice.md"
-}
-```
+## Примеры типовых операций
+- Создание счёта для клиента
+- Отправка и получение статуса
+- Загрузка XML для архива
 
-### Download Response
-Base64-encoded XML file.
+## Ссылки на законодательство
+- [Закон об электронных счетах-фактурах (e-invoice.md)](https://www.legis.md/cautare/getResults?doc_id=130944&lang=ru)
 
-## Error Handling
-Standard HTTP error codes and JSON error messages.
-
-
-## Autotests
-- Автотесты покрывают загрузку demo-счёта (test_einvoice.py) и его валидацию.
+## Рекомендации
+- Регулярно проверяйте статусы отправленных счетов
+- Храните резервные копии XML-файлов
+- Используйте demo-данные для тестирования
