@@ -1,0 +1,17 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_company_md" model="res.company">
+            <field name="name">Demo Moldova SRL</field>
+            <field name="vat">1002600043210</field>
+            <field name="company_registry">IDNO 1002600043210</field>
+            <field name="idno">1002600043210</field>
+            <field name="iban">MD21EXMM0000000000012345</field>
+            <field name="street">str. Stefan cel Mare, 1</field>
+            <field name="city">Chisinau</field>
+            <field name="zip">MD-2001</field>
+            <field name="country_id" ref="base.md"/>
+            <field name="phone">+373 22 123456</field>
+            <field name="email">info@demo.md</field>
+        </record>
+    </data>
+</odoo>

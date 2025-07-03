@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: l10n_md 18.0
+"
+"Language: ru
+"
+"Content-Type: text/plain; charset=UTF-8
+"
+
+msgid "Chart of Accounts"
+msgstr "План счетов" if lang=='ru' else "Plan de conturi"
+
+msgid "Tax"
+msgstr "Налог" if lang=='ru' else "Impozit"
+
+msgid "Bank"
+msgstr "Банк" if lang=='ru' else "Banca"
+
+msgid "Fiscal Position"
+msgstr "Фискальная позиция" if lang=='ru' else "Pozitie fiscala"
+
+msgid "Demo Company"
+msgstr "Демо-компания" if lang=='ru' else "Companie demo"
+
+msgid "Moldova"
+msgstr "Молдова" if lang=='ru' else "Moldova"
+msgid "Долгосрочные активы"
+msgstr "Долгосрочные активы"
+
+msgid "Нематериальные активы"
+msgstr "Нематериальные активы"
+
+msgid "Основные средства"
+msgstr "Основные средства"
+
+msgid "Оборотные активы"
+msgstr "Оборотные активы"
+
+msgid "Запасы"
+msgstr "Запасы"
+
+msgid "Денежные средства"
+msgstr "Денежные средства"
+
+msgid "Итого активы"
+msgstr "Итого активы"
+
+msgid "Капитал"
+msgstr "Капитал"
+
+msgid "Долгосрочные обязательства"
+msgstr "Долгосрочные обязательства"
+
+msgid "Краткосрочные обязательства"
+msgstr "Краткосрочные обязательства"
+
+msgid "Итого обязательства и капитал"
+msgstr "Итого обязательства и капитал"
+
+#. module: l10n_md
+msgid "Бухгалтерский баланс (Молдова)"
+msgstr "Бухгалтерский баланс (Молдова)"
+msgid "Отчёт о прибылях и убытках (Молдова)"
+msgstr "Отчёт о прибылях и убытках (Молдова)"
+msgid "Отчёт о движении денежных средств (Молдова)"
+msgstr "Отчёт о движении денежных средств (Молдова)"

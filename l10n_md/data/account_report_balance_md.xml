@@ -1,0 +1,9 @@
+<odoo>
+    <data noupdate="1">
+        <record id="account_financial_report_balance_md" model="account.financial.html.report">
+            <field name="name">Бухгалтерский баланс (Молдова)</field>
+            <field name="country_id" ref="base.md"/>
+            <field name="line_ids" eval="[(0,0,{'name':'Активы','code':'A','sequence':1}), (0,0,{'name':'Пассивы','code':'P','sequence':2}), (0,0,{'name':'Капитал','code':'K','sequence':3})]"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,16 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_tax_vat20" model="account.tax">
+            <field name="name">НДС 20%</field>
+            <field name="amount">20.0</field>
+            <field name="type_tax_use">sale</field>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+        <record id="demo_tax_profit" model="account.tax">
+            <field name="name">Налог на прибыль</field>
+            <field name="amount">12.0</field>
+            <field name="type_tax_use">none</field>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+    </data>
+</odoo>

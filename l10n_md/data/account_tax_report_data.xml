@@ -1,0 +1,25 @@
+<odoo>
+  <data>
+    <record id="md_balance_report" model="account.tax.report">
+      <field name="name">Бухгалтерский баланс (Г 01.00)</field>
+      <field name="country_id" ref="base.md"/>
+      <field name="line_ids" eval="[(0,0,{'code': 'A', 'name': 'Активы', 'sequence': 1, 'children_ids': [
+        (0,0,{'code': 'A1', 'name': 'Долгосрочные активы', 'sequence': 10, 'children_ids': [
+          (0,0,{'code': 'A11', 'name': 'Нематериальные активы', 'sequence': 11, 'expression': 'sum(account.code:201,202,203)'}),
+          (0,0,{'code': 'A12', 'name': 'Основные средства', 'sequence': 12, 'expression': 'sum(account.code:211,212,213)'}),
+        ]}),
+        (0,0,{'code': 'A2', 'name': 'Оборотные активы', 'sequence': 20, 'children_ids': [
+          (0,0,{'code': 'A21', 'name': 'Запасы', 'sequence': 21, 'expression': 'sum(account.code:311,312,313)'}),
+          (0,0,{'code': 'A22', 'name': 'Денежные средства', 'sequence': 22, 'expression': 'sum(account.code:511,512)'}),
+        ]}),
+        (0,0,{'code': 'A3', 'name': 'Итого активы', 'sequence': 99, 'expression': 'A1+A2'}),
+      ]}),
+      (0,0,{'code': 'P', 'name': 'Обязательства и капитал', 'sequence': 2, 'children_ids': [
+        (0,0,{'code': 'P1', 'name': 'Капитал', 'sequence': 10, 'expression': 'sum(account.code:311,312)'}),
+        (0,0,{'code': 'P2', 'name': 'Долгосрочные обязательства', 'sequence': 20, 'expression': 'sum(account.code:411,412)'}),
+        (0,0,{'code': 'P3', 'name': 'Краткосрочные обязательства', 'sequence': 30, 'expression': 'sum(account.code:421,422)'}),
+        (0,0,{'code': 'P4', 'name': 'Итого обязательства и капитал', 'sequence': 99, 'expression': 'P1+P2+P3'}),
+      ]})]"/>
+    </record>
+  </data>
+</odoo>

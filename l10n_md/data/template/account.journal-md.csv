@@ -1,0 +1,5 @@
+id,code,name,type
+cash,CASH,Касса,cash
+bank,BANK,Банк,bank
+sale,SALE,Продажи,sale
+purchase,PURCHASE,Покупки,purchase

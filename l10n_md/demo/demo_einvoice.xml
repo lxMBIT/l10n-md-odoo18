@@ -1,0 +1,13 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_einvoice_md" model="account.einvoice">
+            <field name="name">Demo Moldova e-Invoice</field>
+            <field name="template_id" ref="einvoice_template_md"/>
+            <field name="partner_id" ref="base.res_partner_2"/>
+            <field name="date">2025-07-05</field>
+            <field name="amount_total">1200.00</field>
+            <field name="currency_id" ref="base.MDL"/>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+    </data>
+</odoo>

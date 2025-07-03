@@ -1,0 +1,16 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_company_md_bank" model="res.partner.bank">
+            <field name="acc_number">MD21EXMM0000000000012345</field>
+            <field name="bank_id" ref="base.bank_demo_md"/>
+            <field name="partner_id" ref="demo_company_md"/>
+        </record>
+        <record id="base.bank_demo_md" model="res.bank">
+            <field name="name">Moldindconbank</field>
+            <field name="bic">MOLDMD2X</field>
+            <field name="swift">MOLDMD2X</field>
+            <field name="city">Chisinau</field>
+            <field name="country">MD</field>
+        </record>
+    </data>
+</odoo>

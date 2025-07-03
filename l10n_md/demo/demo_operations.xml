@@ -1,0 +1,30 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_invoice_sale_md" model="account.move">
+            <field name="move_type">out_invoice</field>
+            <field name="partner_id" ref="base.res_partner_2"/>
+            <field name="invoice_date">2025-07-01</field>
+            <field name="invoice_line_ids" eval="[(0,0,{'name':'Товар A','quantity':2,'price_unit':100,'account_id':ref('l10n_md.pcg_701'),'tax_ids':[(6,0,[ref('l10n_md.vat_20')])]}), (0,0,{'name':'Товар B','quantity':1,'price_unit':200,'account_id':ref('l10n_md.pcg_701'),'tax_ids':[(6,0,[ref('l10n_md.vat_8')])]} )]"/>
+        </record>
+        <record id="demo_invoice_purchase_md" model="account.move">
+            <field name="move_type">in_invoice</field>
+            <field name="partner_id" ref="base.res_partner_3"/>
+            <field name="invoice_date">2025-07-02</field>
+            <field name="invoice_line_ids" eval="[(0,0,{'name':'Услуга X','quantity':1,'price_unit':500,'account_id':ref('l10n_md.pcg_601'),'tax_ids':[(6,0,[ref('l10n_md.vat_20')])]} )]"/>
+        </record>
+        <record id="demo_bank_payment_md" model="account.payment">
+            <field name="payment_type">outbound</field>
+            <field name="partner_type">supplier</field>
+            <field name="partner_id" ref="base.res_partner_3"/>
+            <field name="amount">500</field>
+            <field name="payment_date">2025-07-03</field>
+            <field name="journal_id" ref="l10n_md.demo_bank_journal"/>
+        </record>
+        <record id="demo_salary_md" model="hr.payslip">
+            <field name="employee_id" ref="hr.employee_demo"/>
+            <field name="date_from">2025-07-01</field>
+            <field name="date_to">2025-07-31</field>
+            <field name="struct_id" ref="hr_payroll.structure_demo"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,16 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_tax_social" model="account.tax">
+            <field name="name">Социальное страхование 24%</field>
+            <field name="amount">24.0</field>
+            <field name="type_tax_use">none</field>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+        <record id="demo_tax_medical" model="account.tax">
+            <field name="name">Медицинское страхование 9%</field>
+            <field name="amount">9.0</field>
+            <field name="type_tax_use">none</field>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,34 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_account_cash" model="account.account">
+            <field name="code">101</field>
+            <field name="name">Касса</field>
+            <field name="user_type_id" ref="account.data_account_type_cash"/>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+        <record id="demo_account_bank" model="account.account">
+            <field name="code">221</field>
+            <field name="name">Расчётный счёт</field>
+            <field name="user_type_id" ref="account.data_account_type_bank"/>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+        <record id="demo_account_sale" model="account.account">
+            <field name="code">601</field>
+            <field name="name">Продажи</field>
+            <field name="user_type_id" ref="account.data_account_type_income"/>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+        <record id="demo_account_purchase" model="account.account">
+            <field name="code">701</field>
+            <field name="name">Покупки</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+        <record id="demo_account_vat" model="account.account">
+            <field name="code">511</field>
+            <field name="name">НДС</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="company_id" ref="demo_company_md"/>
+        </record>
+    </data>
+</odoo>

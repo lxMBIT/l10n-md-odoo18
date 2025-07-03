@@ -1,0 +1,22 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_employee_md" model="hr.employee">
+            <field name="name">Ion Popescu</field>
+            <field name="identification_id">IDNP1234567890123</field>
+            <field name="work_email">ion.popescu@demo.md</field>
+            <field name="country_id" ref="base.md"/>
+        </record>
+        <record id="demo_contract_md" model="hr.contract">
+            <field name="name">Contract Ion Popescu</field>
+            <field name="employee_id" ref="demo_employee_md"/>
+            <field name="wage">15000</field>
+            <field name="struct_id" ref="hr_payslip_structure_md"/>
+        </record>
+        <record id="demo_payslip_md" model="hr.payslip">
+            <field name="employee_id" ref="demo_employee_md"/>
+            <field name="contract_id" ref="demo_contract_md"/>
+            <field name="date_from">2025-07-01</field>
+            <field name="date_to">2025-07-31</field>
+        </record>
+    </data>
+</odoo>

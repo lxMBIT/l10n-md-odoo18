@@ -1,0 +1,19 @@
+<odoo>
+  <data>
+    <record id="md_pnl_report" model="account.tax.report">
+      <field name="name">Отчёт о прибылях и убытках (Г 02.00)</field>
+      <field name="country_id" ref="base.md"/>
+      <field name="line_ids" eval="[(0,0,{'code': 'I', 'name': 'Доходы', 'sequence': 1, 'children_ids': [
+        (0,0,{'code': 'I1', 'name': 'Выручка', 'sequence': 10}),
+        (0,0,{'code': 'I2', 'name': 'Прочие доходы', 'sequence': 20}),
+        (0,0,{'code': 'I3', 'name': 'Итого доходы', 'sequence': 99}),
+      ]}),
+      (0,0,{'code': 'E', 'name': 'Расходы', 'sequence': 2, 'children_ids': [
+        (0,0,{'code': 'E1', 'name': 'Себестоимость продаж', 'sequence': 10}),
+        (0,0,{'code': 'E2', 'name': 'Прочие расходы', 'sequence': 20}),
+        (0,0,{'code': 'E3', 'name': 'Итого расходы', 'sequence': 99}),
+      ]}),
+      (0,0,{'code': 'R', 'name': 'Финансовый результат', 'sequence': 3})]"/>
+    </record>
+  </data>
+</odoo>
