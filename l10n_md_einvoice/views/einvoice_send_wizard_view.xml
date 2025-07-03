@@ -1,0 +1,28 @@
+<odoo>
+  <record id="view_einvoice_send_wizard_form" model="ir.ui.view">
+    <field name="name">l10n_md_einvoice.send_wizard.form</field>
+    <field name="model">l10n_md_einvoice.send_wizard</field>
+    <field name="arch" type="xml">
+      <form string="Отправка счета в eFactura">
+        <group>
+          <field name="invoice_id"/>
+          <field name="xml_preview" widget="text"/>
+          <field name="result" widget="text"/>
+        </group>
+        <footer>
+          <button name="action_generate_xml" type="object" string="Сформировать XML" class="btn-primary"/>
+          <button name="action_send" type="object" string="Отправить в eFactura" class="btn-success"/>
+          <button string="Закрыть" class="btn-secondary" special="cancel"/>
+        </footer>
+      </form>
+    </field>
+  </record>
+  <record id="action_einvoice_send_wizard" model="ir.actions.act_window">
+    <field name="name">Отправка счета в eFactura</field>
+    <field name="res_model">l10n_md_einvoice.send_wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+    <field name="context">{}</field>
+  </record>
+  <menuitem id="menu_einvoice_send_wizard" name="Отправить счет в eFactura" parent="account.menu_finance" action="action_einvoice_send_wizard" sequence="100"/>
+</odoo>

@@ -1,0 +1,12 @@
+<odoo>
+  <record id="view_move_form_einvoice_button" model="ir.ui.view">
+    <field name="name">account.move.form.einvoice.button</field>
+    <field name="model">account.move</field>
+    <field name="inherit_id" ref="account.view_move_form"/>
+    <field name="arch" type="xml">
+      <header position="inside">
+        <button name="%(action_einvoice_send_wizard)d" type="action" string="Отправить в eFactura" class="btn-primary"/>
+      </header>
+    </field>
+  </record>
+</odoo>
