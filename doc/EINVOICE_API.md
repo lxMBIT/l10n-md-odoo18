@@ -40,3 +40,6 @@ Base64-encoded XML file.
 ## Error Handling
 Standard HTTP error codes and JSON error messages.
 
+
+## Autotests
+- Автотесты покрывают загрузку demo-счёта (test_einvoice.py) и его валидацию.

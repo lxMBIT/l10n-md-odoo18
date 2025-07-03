@@ -12,6 +12,9 @@
     'demo': [
         'demo/einvoice_invoice_demo.xml',
     ],
+    'test': [
+        'tests/test_einvoice.py',
+    ],
     'license': 'LGPL-3',
     'installable': True,
     'application': False,
