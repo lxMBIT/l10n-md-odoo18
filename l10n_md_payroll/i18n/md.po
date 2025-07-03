@@ -1,0 +1,17 @@
+msgid "Moldova Salary Structure"
+msgstr "Structura salarială Moldova"
+
+msgid "CNAS Employee"
+msgstr "CNAS Angajat"
+
+msgid "CNAS Employer"
+msgstr "CNAS Angajator"
+
+msgid "CNAM Employee"
+msgstr "CNAM Angajat"
+
+msgid "CNAM Employer"
+msgstr "CNAM Angajator"
+
+msgid "CNAS Report"
+msgstr "Raport CNAS"

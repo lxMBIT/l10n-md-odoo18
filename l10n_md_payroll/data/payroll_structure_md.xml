@@ -1,0 +1,47 @@
+<odoo>
+    <record id="hr_payroll_structure_md" model="hr.payroll.structure">
+        <field name="name">Moldova Salary Structure</field>
+        <field name="code">MD_BASE</field>
+        <field name="country_id" ref="base.md"/>
+    </record>
+    <record id="rule_cnas_employee" model="hr.salary.rule">
+        <field name="name">CNAS Employee</field>
+        <field name="code">CNAS_EMP</field>
+        <field name="sequence">100</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="struct_id" ref="hr_payroll_structure_md"/>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">6%</field>
+        <field name="condition_select">none</field>
+    </record>
+    <record id="rule_cnas_employer" model="hr.salary.rule">
+        <field name="name">CNAS Employer</field>
+        <field name="code">CNAS_EMPL</field>
+        <field name="sequence">110</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="struct_id" ref="hr_payroll_structure_md"/>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">18%</field>
+        <field name="condition_select">none</field>
+    </record>
+    <record id="rule_cnam_employee" model="hr.salary.rule">
+        <field name="name">CNAM Employee</field>
+        <field name="code">CNAM_EMP</field>
+        <field name="sequence">120</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="struct_id" ref="hr_payroll_structure_md"/>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">9%</field>
+        <field name="condition_select">none</field>
+    </record>
+    <record id="rule_cnam_employer" model="hr.salary.rule">
+        <field name="name">CNAM Employer</field>
+        <field name="code">CNAM_EMPL</field>
+        <field name="sequence">130</field>
+        <field name="category_id" ref="hr_payroll.ALW"/>
+        <field name="struct_id" ref="hr_payroll_structure_md"/>
+        <field name="amount_select">percentage</field>
+        <field name="amount_percentage">0%</field>
+        <field name="condition_select">none</field>
+    </record>
+</odoo>
