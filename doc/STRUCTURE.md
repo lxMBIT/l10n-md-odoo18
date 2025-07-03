@@ -1,0 +1,29 @@
+# Структура модулей
+
+- l10n_md/
+  - models/
+  - views/
+  - data/
+  - demo/
+  - tests/
+  - i18n/
+- l10n_md_einvoice/
+  - models/
+  - wizard/
+  - views/
+  - tests/
+- l10n_md_bank/
+  - models/
+  - views/
+  - tests/
+- l10n_md_payroll/
+  - models/
+  - views/
+  - tests/
+- doc/
+  - DEV_GUIDE.md
+  - API_REFERENCE.md
+  - MIGRATION.md
+  - TESTING.md
+  - CONTRIBUTING.md
+  - STRUCTURE.md
