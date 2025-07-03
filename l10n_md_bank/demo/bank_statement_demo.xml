@@ -1,26 +1,33 @@
+<?xml version="1.0"?>
 <odoo>
-    <data noupdate="1">
-        <record id="demo_bank_statement_md" model="l10n_md_bank.bank_statement">
-            <field name="name">MD20250701-001</field>
-            <field name="date">2025-07-01</field>
-            <field name="bank_account">MD24AG00000002210001300415</field>
-            <field name="currency_id" ref="base.MDL"/>
-        </record>
-        <record id="demo_bank_statement_line_1" model="l10n_md_bank.bank_statement.line">
-            <field name="statement_id" ref="demo_bank_statement_md"/>
-            <field name="date">2025-07-01</field>
-            <field name="description">Поступление от клиента</field>
-            <field name="amount">10000.00</field>
-            <field name="partner_name">SRL DemoClient</field>
-            <field name="reference">INV/2025/001</field>
-        </record>
-        <record id="demo_bank_statement_line_2" model="l10n_md_bank.bank_statement.line">
-            <field name="statement_id" ref="demo_bank_statement_md"/>
-            <field name="date">2025-07-01</field>
-            <field name="description">Оплата поставщику</field>
-            <field name="amount">-3500.00</field>
-            <field name="partner_name">SRL DemoSupplier</field>
-            <field name="reference">BILL/2025/002</field>
-        </record>
-    </data>
+    <!-- CSV: Валютная операция, дубль, ошибка формата -->
+    <record id="demo_csv_statement" model="l10n_md_bank.bank_statement">
+        <field name="name">CSV Edge Demo</field>
+        <field name="date">2025-07-01</field>
+        <field name="bank_account">MD24AG000225100013104168</field>
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-01','description':'EUR payment','amount':1000,'currency_id':ref('base.EUR'),'partner_name':'Acme','reference':'REF100'})]"/>
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-01','description':'Duplicate','amount':1000,'currency_id':ref('base.EUR'),'partner_name':'Acme','reference':'REF100'})]"/>
+        <!-- Ошибка формата: некорректная дата -->
+        <field name="line_ids" eval="[(0,0,{'date':'2025-13-01','description':'Bad date','amount':100,'currency_id':ref('base.USD'),'partner_name':'Bad','reference':'BADREF'})]"/>
+    </record>
+    <!-- SEPA: Валютная операция, дубль, ошибка формата -->
+    <record id="demo_sepa_statement" model="l10n_md_bank.bank_statement">
+        <field name="name">SEPA Edge Demo</field>
+        <field name="date">2025-07-02</field>
+        <field name="bank_account">MD24AG000225100013104168</field>
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-02','description':'SEPA EUR','amount':500,'currency_id':ref('base.EUR'),'partner_name':'Beta','reference':'SEPA100'})]"/>
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-02','description':'Duplicate','amount':500,'currency_id':ref('base.EUR'),'partner_name':'Beta','reference':'SEPA100'})]"/>
+        <!-- Ошибка формата: пустой reference -->
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-02','description':'No ref','amount':200,'currency_id':ref('base.USD'),'partner_name':'Beta','reference':''})]"/>
+    </record>
+    <!-- MT940: Валютная операция, дубль, ошибка формата -->
+    <record id="demo_mt940_statement" model="l10n_md_bank.bank_statement">
+        <field name="name">MT940 Edge Demo</field>
+        <field name="date">2025-07-03</field>
+        <field name="bank_account">MD24AG000225100013104168</field>
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-03','description':'MT940 USD','amount':300,'currency_id':ref('base.USD'),'partner_name':'Gamma','reference':'MT940100'})]"/>
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-03','description':'Duplicate','amount':300,'currency_id':ref('base.USD'),'partner_name':'Gamma','reference':'MT940100'})]"/>
+        <!-- Ошибка формата: некорректная сумма -->
+        <field name="line_ids" eval="[(0,0,{'date':'2025-07-03','description':'Bad amount','amount':'BAD','currency_id':ref('base.USD'),'partner_name':'Gamma','reference':'BADAMT'})]"/>
+    </record>
 </odoo>
