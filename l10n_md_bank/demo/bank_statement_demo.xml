@@ -1,0 +1,26 @@
+<odoo>
+    <data noupdate="1">
+        <record id="demo_bank_statement_md" model="l10n_md_bank.bank_statement">
+            <field name="name">MD20250701-001</field>
+            <field name="date">2025-07-01</field>
+            <field name="bank_account">MD24AG00000002210001300415</field>
+            <field name="currency_id" ref="base.MDL"/>
+        </record>
+        <record id="demo_bank_statement_line_1" model="l10n_md_bank.bank_statement.line">
+            <field name="statement_id" ref="demo_bank_statement_md"/>
+            <field name="date">2025-07-01</field>
+            <field name="description">Поступление от клиента</field>
+            <field name="amount">10000.00</field>
+            <field name="partner_name">SRL DemoClient</field>
+            <field name="reference">INV/2025/001</field>
+        </record>
+        <record id="demo_bank_statement_line_2" model="l10n_md_bank.bank_statement.line">
+            <field name="statement_id" ref="demo_bank_statement_md"/>
+            <field name="date">2025-07-01</field>
+            <field name="description">Оплата поставщику</field>
+            <field name="amount">-3500.00</field>
+            <field name="partner_name">SRL DemoSupplier</field>
+            <field name="reference">BILL/2025/002</field>
+        </record>
+    </data>
+</odoo>
