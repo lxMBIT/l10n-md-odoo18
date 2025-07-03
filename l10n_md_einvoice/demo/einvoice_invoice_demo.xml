@@ -1,0 +1,11 @@
+<odoo>
+    <record id="demo_einvoice_invoice_1" model="l10n_md_einvoice.invoice">
+        <field name="name">INV-MD-0001</field>
+        <field name="partner_id" ref="base.res_partner_2"/>
+        <field name="date_invoice">2025-07-01</field>
+        <field name="amount_total">1500.00</field>
+        <field name="currency_id" ref="base.MDL"/>
+        <field name="state">draft</field>
+        <field name="einvoice_md_id">MD-INV-0001</field>
+    </record>
+</odoo>
