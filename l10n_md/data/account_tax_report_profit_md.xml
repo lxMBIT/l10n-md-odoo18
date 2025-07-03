@@ -1,0 +1,9 @@
+<odoo>
+    <data noupdate="1">
+        <record id="account_tax_report_profit_md" model="account.tax.report">
+            <field name="name">Декларация по налогу на прибыль (Молдова)</field>
+            <field name="country_id" ref="base.md"/>
+            <field name="line_ids" eval="[(0,0,{'name':'Облагаемая прибыль','code':'PROFIT_TAXABLE','sequence':1}), (0,0,{'name':'Ставка налога','code':'PROFIT_RATE','sequence':2}), (0,0,{'name':'Сумма налога','code':'PROFIT_AMOUNT','sequence':3}), (0,0,{'name':'Льготы','code':'PROFIT_RELIEF','sequence':4}), (0,0,{'name':'К уплате','code':'PROFIT_PAY','sequence':5})]"/>
+        </record>
+    </data>
+</odoo>

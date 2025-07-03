@@ -1098,3 +1098,11 @@ msgid "Отчёт о прибылях и убытках (Молдова)"
 msgstr "Raport de profit și pierdere (Moldova)"
 msgid "Отчёт о движении денежных средств (Молдова)"
 msgstr "Raport de fluxuri de numerar (Moldova)"
+
+#. module: l10n_md
+msgid "Декларация по НДС (Молдова)"
+msgstr "Declarație TVA (Moldova)"
+msgid "Декларация по налогу на прибыль (Молдова)"
+msgstr "Declarație impozit pe profit (Moldova)"
+msgid "Отчёт по социальным и медицинским взносам (Молдова)"
+msgstr "Raport contribuții sociale și medicale (Moldova)"

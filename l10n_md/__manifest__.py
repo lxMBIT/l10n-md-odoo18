@@ -22,6 +22,7 @@
         'data/account_tax_report_data_pnl.xml',
         'data/account_tax_report_data_cashflow.xml',
 'account_report_balance_md.xml',    'account_report_pnl_md.xml',    'account_report_cashflow_md.xml',
+'account_tax_report_vat_md.xml',    'account_tax_report_profit_md.xml',    'account_tax_report_social_md.xml',
         'data/res.bank.csv',
         'data/template/account.account-md.csv',
         'data/template/account.fiscal.position-md.csv',
