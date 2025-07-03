@@ -1,0 +1,355 @@
+<odoo>
+<data>
+<record id="demo_payslip_1" model="hr.payslip">
+<field name="number">PSL/2025/001</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">9022</field>
+</record>
+<record id="demo_payslip_2" model="hr.payslip">
+<field name="number">PSL/2025/002</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">11540</field>
+</record>
+<record id="demo_payslip_3" model="hr.payslip">
+<field name="number">PSL/2025/003</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">8892</field>
+</record>
+<record id="demo_payslip_4" model="hr.payslip">
+<field name="number">PSL/2025/004</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">8870</field>
+</record>
+<record id="demo_payslip_5" model="hr.payslip">
+<field name="number">PSL/2025/005</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">17939</field>
+</record>
+<record id="demo_payslip_6" model="hr.payslip">
+<field name="number">PSL/2025/006</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6426</field>
+</record>
+<record id="demo_payslip_7" model="hr.payslip">
+<field name="number">PSL/2025/007</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">9073</field>
+</record>
+<record id="demo_payslip_8" model="hr.payslip">
+<field name="number">PSL/2025/008</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14396</field>
+</record>
+<record id="demo_payslip_9" model="hr.payslip">
+<field name="number">PSL/2025/009</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">12202</field>
+</record>
+<record id="demo_payslip_10" model="hr.payslip">
+<field name="number">PSL/2025/010</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14628</field>
+</record>
+<record id="demo_payslip_11" model="hr.payslip">
+<field name="number">PSL/2025/011</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">9240</field>
+</record>
+<record id="demo_payslip_12" model="hr.payslip">
+<field name="number">PSL/2025/012</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">19011</field>
+</record>
+<record id="demo_payslip_13" model="hr.payslip">
+<field name="number">PSL/2025/013</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">13665</field>
+</record>
+<record id="demo_payslip_14" model="hr.payslip">
+<field name="number">PSL/2025/014</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">8038</field>
+</record>
+<record id="demo_payslip_15" model="hr.payslip">
+<field name="number">PSL/2025/015</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">10784</field>
+</record>
+<record id="demo_payslip_16" model="hr.payslip">
+<field name="number">PSL/2025/016</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14818</field>
+</record>
+<record id="demo_payslip_17" model="hr.payslip">
+<field name="number">PSL/2025/017</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">10868</field>
+</record>
+<record id="demo_payslip_18" model="hr.payslip">
+<field name="number">PSL/2025/018</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6356</field>
+</record>
+<record id="demo_payslip_19" model="hr.payslip">
+<field name="number">PSL/2025/019</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">18265</field>
+</record>
+<record id="demo_payslip_20" model="hr.payslip">
+<field name="number">PSL/2025/020</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">9647</field>
+</record>
+<record id="demo_payslip_21" model="hr.payslip">
+<field name="number">PSL/2025/021</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">12237</field>
+</record>
+<record id="demo_payslip_22" model="hr.payslip">
+<field name="number">PSL/2025/022</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">18889</field>
+</record>
+<record id="demo_payslip_23" model="hr.payslip">
+<field name="number">PSL/2025/023</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">8831</field>
+</record>
+<record id="demo_payslip_24" model="hr.payslip">
+<field name="number">PSL/2025/024</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">7430</field>
+</record>
+<record id="demo_payslip_25" model="hr.payslip">
+<field name="number">PSL/2025/025</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6003</field>
+</record>
+<record id="demo_payslip_26" model="hr.payslip">
+<field name="number">PSL/2025/026</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14926</field>
+</record>
+<record id="demo_payslip_27" model="hr.payslip">
+<field name="number">PSL/2025/027</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14911</field>
+</record>
+<record id="demo_payslip_28" model="hr.payslip">
+<field name="number">PSL/2025/028</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6454</field>
+</record>
+<record id="demo_payslip_29" model="hr.payslip">
+<field name="number">PSL/2025/029</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14547</field>
+</record>
+<record id="demo_payslip_30" model="hr.payslip">
+<field name="number">PSL/2025/030</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">16168</field>
+</record>
+<record id="demo_payslip_31" model="hr.payslip">
+<field name="number">PSL/2025/031</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">5687</field>
+</record>
+<record id="demo_payslip_32" model="hr.payslip">
+<field name="number">PSL/2025/032</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">10211</field>
+</record>
+<record id="demo_payslip_33" model="hr.payslip">
+<field name="number">PSL/2025/033</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">17709</field>
+</record>
+<record id="demo_payslip_34" model="hr.payslip">
+<field name="number">PSL/2025/034</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">18627</field>
+</record>
+<record id="demo_payslip_35" model="hr.payslip">
+<field name="number">PSL/2025/035</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">12810</field>
+</record>
+<record id="demo_payslip_36" model="hr.payslip">
+<field name="number">PSL/2025/036</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6922</field>
+</record>
+<record id="demo_payslip_37" model="hr.payslip">
+<field name="number">PSL/2025/037</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6608</field>
+</record>
+<record id="demo_payslip_38" model="hr.payslip">
+<field name="number">PSL/2025/038</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">14056</field>
+</record>
+<record id="demo_payslip_39" model="hr.payslip">
+<field name="number">PSL/2025/039</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">15911</field>
+</record>
+<record id="demo_payslip_40" model="hr.payslip">
+<field name="number">PSL/2025/040</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">9237</field>
+</record>
+<record id="demo_payslip_41" model="hr.payslip">
+<field name="number">PSL/2025/041</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">9375</field>
+</record>
+<record id="demo_payslip_42" model="hr.payslip">
+<field name="number">PSL/2025/042</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">6638</field>
+</record>
+<record id="demo_payslip_43" model="hr.payslip">
+<field name="number">PSL/2025/043</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">10645</field>
+</record>
+<record id="demo_payslip_44" model="hr.payslip">
+<field name="number">PSL/2025/044</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">5246</field>
+</record>
+<record id="demo_payslip_45" model="hr.payslip">
+<field name="number">PSL/2025/045</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">8071</field>
+</record>
+<record id="demo_payslip_46" model="hr.payslip">
+<field name="number">PSL/2025/046</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">17248</field>
+</record>
+<record id="demo_payslip_47" model="hr.payslip">
+<field name="number">PSL/2025/047</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">5476</field>
+</record>
+<record id="demo_payslip_48" model="hr.payslip">
+<field name="number">PSL/2025/048</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">17571</field>
+</record>
+<record id="demo_payslip_49" model="hr.payslip">
+<field name="number">PSL/2025/049</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">10039</field>
+</record>
+<record id="demo_payslip_50" model="hr.payslip">
+<field name="number">PSL/2025/050</field>
+<field name="employee_id" ref="base.user_admin"/>
+<field name="date_from">2025-06-01</field>
+<field name="date_to">2025-06-30</field>
+<field name="total">19806</field>
+</record>
+
+</data>
+</odoo>

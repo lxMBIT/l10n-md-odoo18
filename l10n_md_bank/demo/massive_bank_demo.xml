@@ -1,0 +1,305 @@
+<odoo>
+<data>
+<record id="demo_bank_statement_1" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/001</field>
+<field name="date">2025-07-02</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_2" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/002</field>
+<field name="date">2025-07-03</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_3" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/003</field>
+<field name="date">2025-07-04</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_4" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/004</field>
+<field name="date">2025-07-05</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_5" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/005</field>
+<field name="date">2025-07-06</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_6" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/006</field>
+<field name="date">2025-07-07</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_7" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/007</field>
+<field name="date">2025-07-08</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_8" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/008</field>
+<field name="date">2025-07-09</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_9" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/009</field>
+<field name="date">2025-07-10</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_10" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/010</field>
+<field name="date">2025-07-11</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_11" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/011</field>
+<field name="date">2025-07-12</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_12" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/012</field>
+<field name="date">2025-07-13</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_13" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/013</field>
+<field name="date">2025-07-14</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_14" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/014</field>
+<field name="date">2025-07-15</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_15" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/015</field>
+<field name="date">2025-07-16</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_16" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/016</field>
+<field name="date">2025-07-17</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_17" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/017</field>
+<field name="date">2025-07-18</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_18" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/018</field>
+<field name="date">2025-07-19</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_19" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/019</field>
+<field name="date">2025-07-20</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_20" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/020</field>
+<field name="date">2025-07-21</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_21" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/021</field>
+<field name="date">2025-07-22</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_22" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/022</field>
+<field name="date">2025-07-23</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_23" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/023</field>
+<field name="date">2025-07-24</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_24" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/024</field>
+<field name="date">2025-07-25</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_25" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/025</field>
+<field name="date">2025-07-26</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_26" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/026</field>
+<field name="date">2025-07-27</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_27" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/027</field>
+<field name="date">2025-07-28</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_28" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/028</field>
+<field name="date">2025-07-29</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_29" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/029</field>
+<field name="date">2025-07-30</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_30" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/030</field>
+<field name="date">2025-07-01</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_31" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/031</field>
+<field name="date">2025-07-02</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_32" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/032</field>
+<field name="date">2025-07-03</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_33" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/033</field>
+<field name="date">2025-07-04</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_34" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/034</field>
+<field name="date">2025-07-05</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_35" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/035</field>
+<field name="date">2025-07-06</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_36" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/036</field>
+<field name="date">2025-07-07</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_37" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/037</field>
+<field name="date">2025-07-08</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_38" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/038</field>
+<field name="date">2025-07-09</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_39" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/039</field>
+<field name="date">2025-07-10</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_40" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/040</field>
+<field name="date">2025-07-11</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_41" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/041</field>
+<field name="date">2025-07-12</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_42" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/042</field>
+<field name="date">2025-07-13</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_43" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/043</field>
+<field name="date">2025-07-14</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_44" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/044</field>
+<field name="date">2025-07-15</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_45" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/045</field>
+<field name="date">2025-07-16</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_46" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/046</field>
+<field name="date">2025-07-17</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_47" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/047</field>
+<field name="date">2025-07-18</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_48" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/048</field>
+<field name="date">2025-07-19</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_49" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/049</field>
+<field name="date">2025-07-20</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+<record id="demo_bank_statement_50" model="l10n_md_bank.bank_statement">
+<field name="name">MASS/2025/050</field>
+<field name="date">2025-07-21</field>
+<field name="bank_account">MD24AG00000002210001300415</field>
+<field name="currency_id" ref="base.MDL"/>
+</record>
+
+</data>
+</odoo>
